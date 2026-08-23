@@ -1,0 +1,4 @@
+.git
+*.html~
+Thumbs.db
+.DS_Store
