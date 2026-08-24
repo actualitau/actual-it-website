@@ -12,8 +12,9 @@
 <meta property="og:url" content="https://actualit.com.au/services/consultancy">
 <meta property="og:locale" content="en_AU">
 <meta property="og:image" content="https://actualit.com.au/assets/og-image.png">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Actual IT — boutique IT support, consultancy and custom software for Brisbane businesses.">
+<meta property="og:image:width" content="1600">
+<meta property="og:image:height" content="900">
 <meta name="twitter:card" content="summary_large_image">
 
 <meta name="geo.region" content="AU-QLD">
@@ -31,7 +32,7 @@
   "serviceType": "IT Consulting",
   "description": "Tailored IT consultancy for Brisbane businesses — migrations, system design and process tooling scoped around how your business actually runs.",
   "url": "https://actualit.com.au/services/consultancy",
-  "provider": {"@type": "ProfessionalService", "name": "Actual IT", "url": "https://actualit.com.au/"},
+  "provider": {"@id": "https://actualit.com.au/#business"},
   "areaServed": {"@type": "City", "name": "Brisbane"}
 }
 </script>
@@ -41,12 +42,14 @@
 
 <div class="wrap">
   <nav>
+    <a class="skip" href="#main">Skip to content</a>
     <a class="brand" href="/">
       <img class="brand-logo" src="/assets/logo.svg" alt="Actual IT" width="132" height="47">
     </a>
-    <div class="nav-right">
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <div class="nav-right" id="site-nav">
       <a class="link" href="/services/managed-it-support">Managed IT</a>
-      <a class="link" href="/services/consultancy">Consultancy</a>
+      <a class="link" href="/services/consultancy" aria-current="page">Consultancy</a>
       <a class="link" href="/services/custom-software">Software</a>
       <a class="link" href="/about/">About</a>
       <a class="nav-cta" href="/contact/">Get in touch</a>
@@ -55,11 +58,11 @@
 </div>
 
 
-<main>
+<main id="main">
 
 <header class="hero" style="padding-bottom:60px;">
   <div class="wrap">
-    <p class="sec-label">// Services — 02</p>
+    <p class="sec-label">Services — 02</p>
     <h1>Tailored solutions,<br><span class="dim">scoped around how you actually work.</span></h1>
     <p class="hero-sub">
       Moving office, upgrading systems, connecting tools that don't talk. We map how your business
@@ -125,9 +128,9 @@
 <section id="contact">
   <div class="wrap">
     <div class="contact-box">
-      <p class="sec-label">// Start here</p>
-      <h2>Fifteen minutes. Tell us what hurts.</h2>
-      <p>No sales deck, no jargon. We'll look at your actual setup and give you a straight answer on what's worth fixing — and what might be worth building.</p>
+      <p class="sec-label">Start here</p>
+      <h2>Fifteen minutes. Tell me what hurts.</h2>
+      <p>No sales deck, no jargon. I'll look at your actual setup and give you a straight answer on what's worth fixing — and what might be worth building.</p>
       <a class="btn btn-solid" href="mailto:david@actualit.com.au">david@actualit.com.au</a>
       <p class="contact-alt">or call <a href="tel:1300792126">1300 792 126</a> &middot; Brisbane, QLD</p>
     </div>
