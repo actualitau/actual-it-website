@@ -16,8 +16,8 @@ Actual IT (actualit.com.au) is a deliberately small technology practice in Brisb
 ## Key facts
 
 - Location: Brisbane, Queensland, Australia. On-site service across the Brisbane metro area.
-- Owner: David McClatchey (sole operator — marketing copy never claims a team).
-- Contact: david@actualit.com.au
+- Owner: David McClatchey (sole operator, Principal Consultant — marketing copy never claims a team).
+- Contact: david@actualit.com.au, phone 1300 792 126
 - Pricing model: managed support is per-user/per-month flat rate with no lock-in; projects are fixed-scope, fixed-price.
 - Differentiator: same person handles support, consultancy and software builds, so context about the client's business compounds over time.
 - Growth focus: purpose-built software and AI-assisted automation for existing and new clients.
