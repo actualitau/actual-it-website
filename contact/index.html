@@ -67,6 +67,55 @@
   </div>
 </header>
 
+
+<section style="padding-top:30px;">
+  <div class="wrap">
+    <div class="like" style="margin-top:0;">
+      <div class="like-bar"><span>send a message</span><span>answered by David</span></div>
+      <div style="padding:24px;">
+        <form id="contact-form" onsubmit="return buildMailto(this)">
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:16px;" class="form-row-2">
+            <div>
+              <label for="cf-name" style="font-size:13px; font-weight:600; color:var(--text);">Name</label>
+              <input type="text" id="cf-name" name="name" required
+                style="width:100%; padding:11px 14px; border:1px solid var(--border); border-radius:8px; font-size:15px; margin-top:6px; background:#fff;">
+            </div>
+            <div>
+              <label for="cf-email" style="font-size:13px; font-weight:600; color:var(--text);">Email</label>
+              <input type="email" id="cf-email" name="email" required
+                style="width:100%; padding:11px 14px; border:1px solid var(--border); border-radius:8px; font-size:15px; margin-top:6px; background:#fff;">
+            </div>
+          </div>
+          <div>
+            <label for="cf-msg" style="font-size:13px; font-weight:600; color:var(--text);">What hurts? (be as specific as you like)</label>
+            <textarea id="cf-msg" name="message" rows="4" required
+              style="width:100%; padding:11px 14px; border:1px solid var(--border); border-radius:8px; font-size:15px; margin-top:6px; background:#fff; resize:vertical;"></textarea>
+          </div>
+          <div style="display:flex; align-items:center; gap:18px; flex-wrap:wrap;">
+            <button type="submit" class="btn btn-solid" style="border:none; cursor:pointer;">Send message</button>
+            <span style="font-size:13px; color:var(--faint);">or call <a href="tel:1300792126" style="color:var(--accent);">1300 792 126</a> — same-day response either way.</span>
+          </div>
+          <p style="font-size:12.5px; color:var(--faint); margin-top:2px;">Submitting opens your email app with the message pre-filled — no data leaves your machine.</p>
+        </form>
+        <script>
+        function buildMailto(form) {
+          var name = form.querySelector('#cf-name').value.trim();
+          var email = form.querySelector('#cf-email').value.trim();
+          var msg = form.querySelector('#cf-msg').value.trim();
+          var subject = 'Website enquiry from ' + name;
+          var body = 'Name: ' + name + '\nEmail: ' + email + '\n\n' + msg;
+          window.location.href = 'mailto:hello@actualit.com.au?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+          return false;
+        }
+        </script>
+        <p style="font-size:13px; color:var(--faint); margin-top:14px;">
+          Your details stay private — this form goes straight to hello@actualit.com.au, reviewed by our ops manager.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section style="padding-top:30px;">
   <div class="wrap">
     <div class="like" style="margin-top:0;">
