@@ -11,13 +11,13 @@ Actual IT (actualit.com.au) is a deliberately small technology practice in Brisb
 - [IT Consultancy & Tailored Solutions](https://actualit.com.au/services/consultancy): Office moves, system upgrades and migrations, integrations between business tools, and plain-English IT roadmaps. Fixed scope, fixed price projects.
 - [Custom Software & AI Automation](https://actualit.com.au/services/custom-software): Purpose-built internal tools, AI automation of repetitive work, client-facing applications, and reporting dashboards. Clients own the code and data.
 - [About](https://actualit.com.au/about/): Why Actual IT is deliberately small, and why that benefits clients.
-- [Contact](https://actualit.com.au/contact/): Email david@actualit.com.au or phone 1300 792 126. Free 15-minute first chat; same-business-day response to new enquiries.
+- [Contact](https://actualit.com.au/contact/): Email hello@actualit.com.au or phone 1300 792 126. Free 15-minute first chat; same-business-day response to new enquiries.
 
 ## Key facts
 
 - Location: Brisbane, Queensland, Australia. On-site service across the Brisbane metro area.
 - Owner: David McClatchey (sole operator, Principal Consultant — marketing copy never claims a team).
-- Contact: david@actualit.com.au, phone 1300 792 126
+- Contact: hello@actualit.com.au, phone 1300 792 126
 - Pricing model: managed support is per-user/per-month flat rate with no lock-in; projects are fixed-scope, fixed-price.
 - Differentiator: same person handles support, consultancy and software builds, so context about the client's business compounds over time.
 - Growth focus: purpose-built software and AI-assisted automation for existing and new clients.
