@@ -22,7 +22,7 @@
 <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=2">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,500;9..144,550;9..144,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/styles.css">
   <script type="application/ld+json">
   {
@@ -48,6 +48,8 @@
 </head>
 <body>
 
+<main id="main">
+
 <div class="wrap">
   <nav>
     <a class="skip" href="#main">Skip to content</a>
@@ -66,27 +68,91 @@
   </nav>
 </div>
 
-<header class="hero">
-  <div class="wrap">
-    <span class="status-pill"><span class="pulse"></span> BRISBANE, AUSTRALIA &nbsp;·&nbsp; TAKING ON NEW CLIENTS</span>
-    <h1>IT support Brisbane can rely on.<br>Your software, <span class="ok">built</span>.<br><span class="dim">One person for both.</span></h1>
-    <p class="hero-sub">
-      Actual IT is a boutique technology partner for Brisbane businesses. We look after your
-      day-to-day IT so you never think about it, and we design custom software that gives
-      you an edge your competitors can't buy off the shelf.
+<header class="hero-stage">
+  <div class="wrap hero-copy">
+    <p class="brand-hero">Actual IT · Brisbane</p>
+    <h1>One person for both.</h1>
+    <p class="hero-lede">
+      Managed IT that stays quiet, and custom software when the spreadsheets stop fitting.
+      You deal with the owner: the person who fixes it and builds it.
     </p>
     <div class="hero-actions">
       <a class="btn btn-solid" href="https://cal.com/actualit/15min" target="_blank" rel="noopener">Book a free chat</a>
-      <a class="btn btn-text" href="#services">What we do ↓</a>
+      <a class="btn btn-text" href="#proof">See the work →</a>
     </div>
+  </div>
+</header>
 
-    <div class="like">
-      <div class="like-bar"><span>what working with us actually looks like</span><span>actual-it.com.au</span></div>
+<section class="doors" aria-label="Choose a starting point">
+  <a class="door" href="/services/managed-it-support">
+    <p class="door-kicker">Keep IT calm</p>
+    <h2>Managed support under one flat fee.</h2>
+    <p>Monitoring, patching, Microsoft 365, security and backups owned end-to-end. No ticket queue. No surprise invoices.</p>
+    <span class="door-go">Managed IT →</span>
+  </a>
+  <a class="door" href="/services/custom-software">
+    <p class="door-kicker">Build the missing tool</p>
+    <h2>Software shaped to how you work.</h2>
+    <p>Purpose-built apps and AI automation for the awkward gaps off-the-shelf software never quite closes.</p>
+    <span class="door-go">Custom software →</span>
+  </a>
+</section>
+
+<section class="proof" id="proof">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-label">Proof</p>
+      <h2>A live product. Not a pitch deck.</h2>
+    </div>
+    <div class="proof-grid">
+      <div class="proof-copy">
+        <p>
+          <strong>Set2Go</strong> started with emailed PowerPoints for employee and contractor
+          onboarding. It put the pack on the phone with timestamped progress, then grew into
+          QR check-in, a live on-site board, SWMS and offline-friendly gate flow.
+        </p>
+        <p>Same pattern I use with clients: ship the painful core first, expand once it's trusted.</p>
+        <div class="hero-actions" style="margin-top:28px;">
+          <a class="btn btn-solid" href="/work/">Read the case study</a>
+          <a class="btn btn-text" href="https://settogo.com.au" target="_blank" rel="noopener">Open settogo.com.au →</a>
+        </div>
+      </div>
+      <div class="product-stage" aria-hidden="true">
+        <div class="product-phone">
+          <div class="notch"></div>
+          <div class="ph-label">Site induction</div>
+          <div class="ph-title">PPE on site</div>
+          <div class="ph-meta">Slide 3 of 12 · quiz locked</div>
+          <div class="ph-bar"><span></span></div>
+          <div class="ph-slide">Construction crew induction</div>
+        </div>
+        <div class="product-float">
+          <div class="pf-label">Attempt record</div>
+          <div class="pf-name">Alex Walsh · 12/12 slides</div>
+          <div class="pf-rows">
+            <span><b>Slide 1</b> · 3:02 pm</span>
+            <span><b>Slide 2</b> · 3:04 pm</span>
+            <span><b>Slide 3</b> · 3:07 pm</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="how">
+  <div class="wrap">
+    <div class="sec-head">
+      <p class="sec-label">How it feels</p>
+      <h2>What working together actually looks like.</h2>
+    </div>
+    <div class="like" style="margin-top:40px;">
+      <div class="like-bar"><span>the short version</span><span>brisbane · taking new clients</span></div>
       <div class="like-row">
         <span class="like-check">✓</span>
         <div>
           <div class="like-t">The owner answers by name</div>
-          <div class="like-d">No ticket queues, no reading your story from scratch. When you call Actual IT, you deal directly with David, the person who actually fixes things.</div>
+          <div class="like-d">No ticket queues, no reading your story from scratch. When you call, you deal directly with David.</div>
         </div>
         <span class="like-meta">every time</span>
       </div>
@@ -102,7 +168,7 @@
         <span class="like-check">✓</span>
         <div>
           <div class="like-t">Straight answers about what's worth doing</div>
-          <div class="like-d">If something doesn't need fixing yet, we'll say so. Our advice has no vendor commissions attached.</div>
+          <div class="like-d">If something doesn't need fixing yet, I'll say so. Advice has no vendor commissions attached.</div>
         </div>
         <span class="like-meta">no upsell</span>
       </div>
@@ -110,15 +176,15 @@
         <span class="like-check">→</span>
         <div>
           <div class="like-t">Software built around how you work</div>
-          <div class="like-d">When you're ready, we replace the spreadsheets and copy-paste with tools made exactly for your business.</div>
+          <div class="like-d">When you're ready, we replace the spreadsheets and copy-paste with tools made for your business.</div>
         </div>
         <span class="like-meta">where we're going</span>
       </div>
     </div>
   </div>
-</header>
+</section>
 
-<section id="services">
+<section id="services" style="padding-top:40px;">
   <div class="wrap">
     <div class="sec-head">
       <p class="sec-label">Services</p>
@@ -129,77 +195,19 @@
     <div class="ledger">
       <div class="ledger-row">
         <span class="ledger-name"><a href="/services/managed-it-support" style="color:inherit;text-decoration:none;">Managed IT Support</a><small>the foundation →</small></span>
-        <p class="ledger-desc">Computers, email, internet, security and backups, owned end-to-end under one flat agreement. Your team gets a direct line to people who fix things properly, not a call centre.</p>
+        <p class="ledger-desc">Computers, email, internet, security and backups, owned end-to-end under one flat agreement. Your team gets a direct line to the person who fixes things properly.</p>
         <span class="ledger-meta">ongoing<br>flat monthly rate</span>
       </div>
       <div class="ledger-row">
         <span class="ledger-name"><a href="/services/consultancy" style="color:inherit;text-decoration:none;">Consultancy &amp; Solutions</a><small>the projects →</small></span>
-        <p class="ledger-desc">Moving office, upgrading systems, connecting tools that don't talk. We map how your business actually operates first, then design the technology around it, not the other way round.</p>
+        <p class="ledger-desc">Moving office, upgrading systems, connecting tools that don't talk. We map how your business actually operates first, then design the technology around it.</p>
         <span class="ledger-meta">project<br>clearly scoped</span>
       </div>
       <div class="ledger-row">
         <span class="ledger-name"><a href="/services/custom-software" style="color:inherit;text-decoration:none;">Purpose-Built Software</a><small>the edge →</small></span>
-        <p class="ledger-desc">Custom applications and AI-assisted automation built for your exact workflow. This is where technology stops being a cost and starts being a competitive advantage.</p>
-        <span class="ledger-meta">bespoke<br>our growth focus</span>
+        <p class="ledger-desc">Custom applications and AI-assisted automation built for your exact workflow. This is where technology stops being a cost and starts being an advantage.</p>
+        <span class="ledger-meta">bespoke<br>growth focus</span>
       </div>
-    </div>
-  </div>
-</section>
-
-<div class="band-wrap">
-  <section id="software">
-    <div class="wrap pitch">
-      <div>
-        <p class="sec-label">Where we're heading</p>
-        <h2>The IT partner that builds, not just maintains.</h2>
-        <p>Every business runs on awkward gaps: the spreadsheet doing a database's job, details re-typed between systems that should talk, hours lost every week to steps a machine could do.</p>
-        <p>Because we already hold the keys to your environment, <strong>we can close those gaps properly</strong>: purpose-built software wired into the systems you use, with AI quietly handling the repetitive work. Support keeps your lights on. <strong>This is what puts you ahead.</strong></p>
-      </div>
-      <div class="stack" aria-hidden="true">
-        <div class="stack-item hot">
-          <span class="s-name">Custom software</span><span class="s-desc">shaped to your workflow</span>
-        </div>
-        <div class="stack-item hot">
-          <span class="s-name">AI automation</span><span class="s-desc">repetitive work → gone</span>
-        </div>
-        <div class="stack-item">
-          <span class="s-name">Integrations</span><span class="s-desc">your tools finally talking</span>
-        </div>
-        <div class="stack-item">
-          <span class="s-name">Managed infrastructure</span><span class="s-desc">the foundation underneath</span>
-        </div>
-      </div>
-    </div>
-  </section>
-</div>
-
-<section id="work">
-  <div class="wrap">
-    <div class="sec-head">
-      <p class="sec-label">Work</p>
-      <h2>Proof, not pitch decks.</h2>
-      <p class="sec-note">A live product we designed and shipped. Start with the painful core workflow, then expand as the job demands it.</p>
-    </div>
-    <div class="work-teaser">
-      <div>
-        <p>
-          <strong style="color:var(--text); font-weight:600;">Set2Go</strong> began with the
-          induction mess: PowerPoints and quizzes emailed back and forth for employee and
-          contractor onboarding. It put the pack on the phone with timestamped progress, then
-          grew into QR check-in, a live on-site board, SWMS, certificates and offline-friendly
-          gate flow once that foundation was trusted.
-        </p>
-        <div class="hero-actions" style="margin-top:28px;">
-          <a class="btn btn-solid" href="/work/">Read the case study</a>
-          <a class="btn btn-text" href="https://settogo.com.au" target="_blank" rel="noopener">Open settogo.com.au →</a>
-        </div>
-      </div>
-      <a class="work-link" href="/work/#settogo">
-        <span class="wl-label">Featured · Custom software</span>
-        <div class="wl-name">Set2Go</div>
-        <p class="wl-desc">Onboarding inductions, QR check-in and safety admin, built for how construction crews actually get ready for site.</p>
-        <span class="wl-go">See how it grew →</span>
-      </a>
     </div>
   </div>
 </section>
@@ -236,7 +244,7 @@
   <div class="trust">
     <div><b>Boutique by design</b>: a deliberately short client list</div>
     <div><b>Deal with the owner</b>: the person who fixes it is the person you talk to</div>
-    <div><b>Local</b>: on-site across the Brisbane metro: CBD, New Farm, Fortitude Valley, Toowong, inner north &amp; west</div>
+    <div><b>Local</b>: on-site across Brisbane metro</div>
   </div>
 </div>
 
@@ -246,11 +254,13 @@
       <p class="sec-label">Start here</p>
       <h2>Fifteen minutes. Tell me what hurts.</h2>
       <p>No sales deck, no jargon. I'll look at your actual setup and give you a straight answer on what's worth fixing, and what might be worth building.</p>
-      <a class="btn btn-solid" href="mailto:hello@actualit.com.au">hello@actualit.com.au</a>
-      <p class="contact-alt">or <a href="https://cal.com/actualit/15min" target="_blank" rel="noopener" style="color:var(--accent);">book a free 15-min chat</a> · or call <a href="tel:1300792126">1300 792 126</a> · Brisbane, QLD</p>
+      <a class="btn btn-solid" href="https://cal.com/actualit/15min" target="_blank" rel="noopener">Book a free 15-min chat</a>
+      <p class="contact-alt">or <a href="mailto:hello@actualit.com.au">hello@actualit.com.au</a> · or call <a href="tel:1300792126">1300 792 126</a> · Brisbane, QLD</p>
     </div>
   </div>
 </section>
+
+</main>
 
 <div class="wrap">
   <footer style="flex-wrap:wrap; gap:16px;">
@@ -265,6 +275,18 @@
     <span>SUPPORT &rarr; SOLUTIONS &rarr; SOFTWARE</span>
   </footer>
 </div>
+
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
 
 </body>
 </html>
