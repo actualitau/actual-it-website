@@ -4,11 +4,11 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>About Actual IT | Boutique Brisbane IT — Deal Directly With The Owner</title>
-<meta name="description" content="Actual IT is a boutique one-person Brisbane technology practice. A deliberately short client list means senior attention every time — meet David, the owner.">
+<meta name="description" content="Meet David McClatchey — Actual IT is a boutique one-person Brisbane practice. In IT since 2015. A short client list means senior attention every time.">
 <link rel="canonical" href="https://actualit.com.au/about/">
 <meta property="og:type" content="website">
 <meta property="og:title" content="About Actual IT — Boutique Brisbane IT">
-<meta property="og:description" content="Actual IT is a boutique one-person Brisbane technology practice. A deliberately short client list means senior attention every time — meet David, the owner.">
+<meta property="og:description" content="Meet David McClatchey — Actual IT is a boutique one-person Brisbane practice. In IT since 2015. A short client list means senior attention every time.">
 <meta property="og:url" content="https://actualit.com.au/about/">
 <meta property="og:locale" content="en_AU">
 <meta property="og:image" content="https://actualit.com.au/assets/og-image.png">
@@ -30,7 +30,19 @@
   "@type": "AboutPage",
   "name": "About Actual IT",
   "url": "https://actualit.com.au/about/",
-  "about": {"@type": "ProfessionalService", "name": "Actual IT", "founder": {"@type": "Person", "name": "David McClatchey"}}
+  "about": {
+    "@type": "ProfessionalService",
+    "name": "Actual IT",
+    "founder": {
+      "@type": "Person",
+      "name": "David McClatchey",
+      "jobTitle": "Principal Consultant",
+      "image": "https://actualit.com.au/assets/david-mcclatchey.jpg",
+      "description": "Founder of Actual IT. Working in IT since 2015 — managed support, consultancy and custom software for Brisbane businesses.",
+      "worksFor": {"@type": "Organization", "name": "Actual IT", "url": "https://actualit.com.au/"},
+      "homeLocation": {"@type": "City", "name": "Brisbane"}
+    }
+  }
 }
 </script>
 </head>
@@ -58,7 +70,7 @@
 
 <main id="main">
 
-<header class="hero" style="padding-bottom:60px;">
+<header class="hero" style="padding-bottom:48px;">
   <div class="wrap">
     <p class="sec-label">About</p>
     <h1>Boutique on purpose.<br><span class="dim">You deal directly with the owner.</span></h1>
@@ -68,6 +80,44 @@
     </p>
   </div>
 </header>
+
+<section id="david" style="padding-top:0;">
+  <div class="wrap">
+    <div class="about-intro">
+      <figure class="about-photo">
+        <img
+          src="/assets/david-mcclatchey.jpg"
+          srcset="/assets/david-mcclatchey-sm.jpg 426w, /assets/david-mcclatchey.jpg 933w"
+          sizes="(max-width: 800px) 80vw, 340px"
+          width="933"
+          height="1400"
+          alt="David McClatchey, founder of Actual IT"
+          loading="eager"
+          decoding="async"
+        >
+      </figure>
+      <div>
+        <p class="sec-label">The person you deal with</p>
+        <h2>David McClatchey</h2>
+        <p>
+          I've been working in IT since <strong>2015</strong> — support, infrastructure, and the
+          awkward gaps between systems that never quite talk. Actual IT is the practice I built
+          around that: a short client list, straight answers, and software when the off-the-shelf
+          tools stop fitting how you actually work.
+        </p>
+        <p>
+          Same person scopes the project, fixes the outage, and ships the build. Context compounds
+          instead of getting lost between a helpdesk and a developer you've never met.
+        </p>
+        <div class="about-facts">
+          <span><b>IT since 2015</b></span>
+          <span><b>Brisbane based</b></span>
+          <span><b>Support → solutions → software</b></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 
 <section>
   <div class="wrap">
@@ -102,7 +152,7 @@
       <h2>Fifteen minutes. Tell me what hurts.</h2>
       <p>No sales deck, no jargon. I'll look at your actual setup and give you a straight answer on what's worth fixing — and what might be worth building.</p>
       <a class="btn btn-solid" href="mailto:hello@actualit.com.au">hello@actualit.com.au</a>
-      <p class="contact-alt">or call <a href="tel:1300792126">1300 792 126</a> &middot; Brisbane, QLD</p>
+      <p class="contact-alt">or <a href="https://cal.com/actualit/15min" target="_blank" rel="noopener" style="color:var(--accent);">book a free 15-min chat</a> · or call <a href="tel:1300792126">1300 792 126</a> &middot; Brisbane, QLD</p>
     </div>
   </div>
 </section>
@@ -113,7 +163,7 @@
 <div class="wrap">
   <footer style="flex-wrap:wrap; gap:16px;">
     <span>&copy; 2026 ACTUAL IT &middot; BRISBANE QLD</span>
-    <span style="display:flex; gap:20px;">
+    <span style="display:flex; gap:20px; flex-wrap:wrap;">
       <a href="/services/managed-it-support" style="color:inherit;">Managed IT</a>
       <a href="/services/consultancy" style="color:inherit;">Consultancy</a>
       <a href="/services/custom-software" style="color:inherit;">Custom Software</a>
@@ -124,6 +174,17 @@
   </footer>
 </div>
 
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
 
 </body>
 </html>
