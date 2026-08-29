@@ -138,18 +138,21 @@ nav {
   font-family: var(--serif);
   font-weight: 550;
   font-variation-settings: "SOFT" 40, "WONK" 0.4;
-  font-size: clamp(42px, 5.8vw, 72px);
-  letter-spacing: -0.03em;
-  line-height: 1.02;
-  max-width: 11ch;
+  font-size: clamp(40px, 5.4vw, 66px);
+  letter-spacing: -0.025em;
+  line-height: 1.06;
+  max-width: 18ch;
   color: var(--ink);
 }
 
+.hero-stage h1 .ok { color: var(--accent); }
+.hero-stage h1 .dim { color: var(--faint); font-weight: 500; }
+
 .hero-lede {
   margin-top: 22px;
-  max-width: 42ch;
+  max-width: 52ch;
   color: var(--muted);
-  font-size: clamp(17px, 1.5vw, 19px);
+  font-size: clamp(17px, 1.5vw, 18.5px);
   line-height: 1.55;
 }
 
