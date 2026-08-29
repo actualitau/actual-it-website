@@ -10,7 +10,7 @@ Actual IT (actualit.com.au) is a deliberately small technology practice in Brisb
 - [Managed IT Support](https://actualit.com.au/services/managed-it-support): Flat-rate managed IT support for Brisbane businesses — 24/7 monitoring, patching, helpdesk, Microsoft 365, security, backups, vendor management. Per-user monthly pricing, no lock-in contracts.
 - [IT Consultancy & Tailored Solutions](https://actualit.com.au/services/consultancy): Office moves, system upgrades and migrations, integrations between business tools, and plain-English IT roadmaps. Fixed scope, fixed price projects.
 - [Custom Software & AI Automation](https://actualit.com.au/services/custom-software): Purpose-built internal tools, AI automation of repetitive work, client-facing applications, and reporting dashboards. Clients own the code and data.
-- [Work](https://actualit.com.au/work/): Selected software Actual IT has designed and shipped, including Set2Go (settogo.com.au) — construction site inductions, QR check-in and safety administration.
+- [Work](https://actualit.com.au/work/): Selected software Actual IT has designed and shipped, including Set2Go (settogo.com.au) — employee and contractor onboarding inductions, QR check-in and safety administration for construction.
 - [About](https://actualit.com.au/about/): Why Actual IT is deliberately small, and why that benefits clients.
 - [Contact](https://actualit.com.au/contact/): Email hello@actualit.com.au or phone 1300 792 126. Free 15-minute first chat; same-business-day response to new enquiries.
 
