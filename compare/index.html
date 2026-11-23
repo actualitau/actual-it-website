@@ -13,6 +13,17 @@
 <style>
   body.compare-page { background: #0f1211; color: #e8eeec; }
   body.compare-page::before { display: none; }
+  body.compare-page > .wrap:first-child {
+    max-width: none;
+    background: var(--bg);
+    border-bottom: 1px solid var(--border);
+    padding: 0;
+  }
+  body.compare-page > .wrap:first-child nav {
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 20px 28px;
+  }
   .compare-top {
     max-width: 1180px; margin: 0 auto; padding: 40px 28px 20px;
   }
@@ -55,7 +66,27 @@
 </head>
 <body class="compare-page">
 
-<div class="compare-top">
+<div class="wrap">
+  <nav>
+    <a class="skip" href="#main">Skip to content</a>
+    <a class="brand" href="/">
+      <img class="brand-logo" src="/assets/logo.svg?v=2" alt="Actual IT" width="132" height="47">
+    </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+    <div class="nav-right" id="site-nav">
+      <a class="link" href="/services/managed-it-support">Managed IT</a>
+      <a class="link" href="/services/consultancy">Consultancy</a>
+      <a class="link" href="/services/custom-software">Software</a>
+      <a class="link" href="/services/seo">SEO</a>
+      <a class="link" href="/services/websites">Websites</a>
+      <a class="link" href="/work/">Work</a>
+      <a class="link" href="/about/">About</a>
+      <a class="nav-cta" href="/contact/">Get in touch</a>
+    </div>
+  </nav>
+</div>
+
+<div class="compare-top" id="main">
   <a href="/">← Proposed homepage</a>
   <h1>Current vs proposed</h1>
   <p>
@@ -145,6 +176,18 @@
     <p>Set2Go gets a product stage so “we build” is visible, not only described. Type and palette shift off Inter-on-cream.</p>
   </article>
 </section>
+
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
 
 </body>
 </html>
