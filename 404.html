@@ -21,10 +21,13 @@
     <a class="brand" href="/">
       <img class="brand-logo" src="/assets/logo.svg?v=2" alt="Actual IT" width="132" height="47">
     </a>
+    <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
     <div class="nav-right" id="site-nav">
       <a class="link" href="/services/managed-it-support">Managed IT</a>
       <a class="link" href="/services/consultancy">Consultancy</a>
       <a class="link" href="/services/custom-software">Software</a>
+      <a class="link" href="/services/seo">SEO</a>
+      <a class="link" href="/services/websites">Websites</a>
       <a class="link" href="/work/">Work</a>
       <a class="link" href="/about/">About</a>
       <a class="nav-cta" href="/contact/">Get in touch</a>
@@ -57,16 +60,30 @@
 <div class="wrap">
   <footer style="flex-wrap:wrap; gap:16px;">
     <span>&copy; 2026 ACTUAL IT &middot; BRISBANE QLD</span>
-    <span style="display:flex; gap:20px;">
+    <span style="display:flex; gap:20px; flex-wrap:wrap;">
       <a href="/services/managed-it-support" style="color:inherit;">Managed IT</a>
       <a href="/services/consultancy" style="color:inherit;">Consultancy</a>
       <a href="/services/custom-software" style="color:inherit;">Custom Software</a>
+      <a href="/services/seo" style="color:inherit;">SEO</a>
+      <a href="/services/websites" style="color:inherit;">Websites</a>
       <a href="/work/" style="color:inherit;">Work</a>
       <a href="/about/" style="color:inherit;">About</a>
     </span>
     <span>SUPPORT &rarr; SOLUTIONS &rarr; SOFTWARE</span>
   </footer>
 </div>
+
+<script>
+  (function () {
+    var btn = document.querySelector('.nav-toggle');
+    var nav = document.getElementById('site-nav');
+    if (!btn || !nav) return;
+    btn.addEventListener('click', function () {
+      var open = nav.classList.toggle('open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>
 
 </body>
 </html>
